@@ -43,3 +43,72 @@ Task-1-API-Visualization/
 │
 └── dashboard/
     └── weather_dashboard.png
+```
+
+## How to Run
+
+### Step 1 - Install Required Libraries
+
+Open the terminal in the project folder and run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 2 - Run the Program
+
+```bash
+python main.py
+```
+
+## Output
+
+After successful execution, the program generates:
+
+### Weather Data
+
+```text
+data/weather_data.csv
+```
+
+This file contains the weather data retrieved from the API.
+
+### Visualization Dashboard
+
+```text
+dashboard/weather_dashboard.png
+```
+
+The dashboard contains visualizations for:
+
+- Temperature
+- Feels-like temperature
+- Humidity
+- Wind speed
+- Atmospheric pressure
+
+## Working Process
+
+```text
+Public Weather API
+        ↓
+Fetch Weather Data
+        ↓
+Convert Data into DataFrame
+        ↓
+Analyze Weather Data
+        ↓
+Save Data as CSV
+        ↓
+Create Visualizations
+        ↓
+Generate Dashboard
+```
+
+## Conclusion
+
+This project demonstrates how Python can be used to integrate data from a public API, process and analyze the data using Pandas, and create meaningful visualizations using Matplotlib and Seaborn.
+
+## Internship Task
+
+Task 1 - API Integration and Data Visualization
